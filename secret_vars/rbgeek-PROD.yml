@@ -1,0 +1,8 @@
+---
+VPC_ID: "vpc-5b65623d"
+IGW: "igw-2afaf34d"
+ROUTE_TABLE_ID: "rtb-94cfb5ed"
+PUBLIC_SUBNET_1: "subnet-5488c732"
+PUBLIC_SUBNET_2: "subnet-5a731c12"
+PRIVATE_SUBNET_1: "subnet-2186c947"
+PRIVATE_SUBNET_2: "subnet-9c731cd4"

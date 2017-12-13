@@ -1,0 +1,10 @@
+region: us-west-2
+zone: us-west-2a
+keypair: Ansible
+security_groups: Free-Traffic
+instance_type: t2.micro
+volumes:
+  - device_name: /dev/sda1
+    device_type: gp2
+    volume_size: 20
+    delete_on_termination: true

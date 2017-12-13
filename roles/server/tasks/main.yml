@@ -1,0 +1,4 @@
+   - name: Nginx setup
+     apt: pkg=nginx state=installed update_cache=true
+   - name: index.html copy
+     template: src=/home/ansible-infra/ansible-aws-roles/index.html.j2 dest=/usr/share/nginx/html/index.html

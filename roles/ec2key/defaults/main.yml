@@ -1,8 +1,8 @@
 ---
 # Variables that can provide as extra vars
-VPC_REGION: us-east-1 # N.Virginia
+VPC_REGION: us-west-2 # N.Virginia
 GITHUB_USERNAME: no
-EC2_KEY_NAME: "my-default-key"
+EC2_KEY_NAME: "Ansible-Oregon"
 LOCAL_USER_SSH_KEY: yes
 
 # If you don't want to use any of this service, just set it's value to 'none'

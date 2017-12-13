@@ -1,8 +1,8 @@
 ---
 # Variables that can provide as extra vars
 VPC_NAME: test
-VPC_REGION: us-east-1 # N.Virginia
-ENVIRONMENT: "test"
+VPC_REGION: us-west-2 # N.Virginia
+ENVIRONMENT: "dev"
 EC2_SECURITY_GROUPS:
   - name: test-sg
     description: "This sg is just a test sg"

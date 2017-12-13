@@ -1,9 +1,9 @@
 ---
 # Variables that can provide as extra vars
 VPC_NAME: test
-VPC_REGION: us-east-1 # N.Virginia
-EC2_INSTANCE_TYPE: t2.micro
-EC2_KEY_NAME: "my-default-key"
+VPC_REGION: us-west-2 # N.Virginia
+EC2_INSTANCE_TYPE: "{{ InstanceValue }}"
+EC2_KEY_NAME: Ansible-Oregon
 EC2_SECURITY_GROUP_NAME: "test"
 EC2_COUNT: 1
 EC2_VOLUME_SIZE: 8
